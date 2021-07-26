@@ -1,3 +1,5 @@
+//Copy and paste it in configure user snippets at javascript.json
+
 {
 	"Print to console":{
 		"prefix":"clog",
