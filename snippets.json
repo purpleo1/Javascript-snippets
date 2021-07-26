@@ -1,0 +1,62 @@
+{
+	"Print to console":{
+		"prefix":"clog",
+		"body": "console.log('$val')",
+		"description": "log output to console"
+	},
+	
+	"get element by ID":{
+		"prefix":"getid",
+		"body": "const ${val}=document.getElementById('$val');",
+		"description": "get element by id"
+	},
+
+	"Query seclector": {
+		"prefix": "getq",
+		"body": "const ${val}=document.querySelector('$val');",
+		"description": "querySelector"
+	},
+	"Query seclector all": {
+		"prefix": "getqall",
+		"body": "const ${val}=document.querySelectorAll('$val');",
+		"description": "querySelectorAll"
+	},
+
+	"Add event listener click": {
+		"prefix": "clicke",
+		"body": "$val.addEventListener('click',(e)=>{})",
+		"description": "add click event"
+	},
+
+	"fetch with async await": {
+		"prefix": "fetchapi",
+		"body": "async function ${val} () {const res = await fetch('$url');const data = await res.json();}",
+		"description": "fetch api with async await"
+	},
+	"Array of months": {
+		"prefix": "months",
+		"body": "const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];",
+		"description": "all months"
+	},
+	"set timeout": {
+		"prefix": "settime",
+		"body": "setTimeout(()=>{},1000);",
+		"description": "set timeout"
+	},
+	"set interval": {
+		"prefix": "setint",
+		"body": "setInterval(()=>{},1000);",
+		"description": "set interval"
+	},
+	"random number": {
+		"prefix": "randnum",
+		"body": "let randomNumber=max=>{return Math.floor(Math.random() * max)}",
+		"description": "random number"
+	},
+	"sort array": {
+		"prefix": "sortarr",
+		"body": "array.sort(function(a, b){return a - b});",
+		"description": "sort function"
+	},
+
+}
